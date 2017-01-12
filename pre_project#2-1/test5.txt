@@ -1,0 +1,37 @@
+State
+q0,q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,q11,q12,q13
+Input symbol
+0,1
+State transition function
+q0,E,q2
+q0,0,q3
+q0,1,q3
+q1,0,q2
+q1,1,q2
+q2,0,q1
+q2,1,q1
+q2,1,q5
+q3,0,q4
+q3,1,q4
+q3,1,q6
+q4,0,q3
+q4,1,q3
+q5,0,q7
+q6,0,q8
+q7,1,q10
+q8,1,q11
+q9,0,q10
+q9,1,q10
+q10,0,q9
+q10,1,q9
+q10,0,q13
+q10,1,q13
+q11,0,q12
+q11,1,q12
+q11,E,q13
+q12,0,q11
+q12,1,q11
+Initial state
+q0
+Final state
+q13
